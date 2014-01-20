@@ -1,0 +1,35 @@
+{
+  "name": "ntriples",
+  "version": "0.0.1",
+  "author": "Nicolas Thouvenin <nthouvenin@gmail.com>",
+  "contributors": [],
+  "description": "PARSE and STRINGIFY for N-Triples strings. It's like JSON object but for N-Triples.",
+  "keywords": [
+    "rdf",
+    "nt",
+    "ntriples",
+    "parser",
+    "string",
+    "generator"
+  ],
+  "homepage": "http://github.com/touv/node-ntriples",
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/touv/node-ntriples.git"
+  },
+  "dependencies": {
+    "unidecode": "~0.1.3"
+  },
+  "devDependencies": {
+    "mocha": ">=1.8.1",
+    "should": ">=1.2.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
